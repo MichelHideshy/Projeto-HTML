@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Secular+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    font-family: Arial;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 180px;
+    background: -webkit-linear-gradient(left, rgb(255, 255, 255), rgb(0, 57, 122));
+}
+
+#logo h1{
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    text-shadow: 0 2px gray;
+}
+
+#logo{
+    padding-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navegacao a{
+    color: #fff;
+}
+
+.navegacao ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+
+#departamentos{
+    font-family: 'Secular One', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(0, 57, 122);
+    font-size: 18pt;
+    
+}
+
+.secao ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    padding-top: 10px; 
+    padding-left: 5px; 
+}
+ 
+.secao img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+}
+
+.secao p{
+    font-size: 9pt;
+    text-align: center;
+    padding-right: 4px;
+    font-family: 'Secular One', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: solid 2px rgb(0, 57, 122);
+}
+
+main h1{
+    color: rgb(0, 57, 122);
+    text-align: center;
+    font-family: 'Secular One', sans-serif; 
+    font-size: 18pt;
+    padding-top: 10px;
+}
+
+#opcao1, #opcao2, #opcao3, #opcao4, #opcao5, #opcao6, #opcao7, #opcao8, #opcao9, #opcao10{
+    width: 95%;
+    height: auto;
+    margin: 5px;
+    box-shadow: 0 0 5px gray;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#opcao1 img, #opcao2 img, #opcao3 img, #opcao4 img, #opcao5 img, #opcao6 img, #opcao7 img, #opcao8 img, #opcao9 img, #opcao10 img{
+    width: 130px;
+    height: 120px;
+    object-fit: contain;
+}
+
+figure{
+    width: 130px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+
+    
+}
+
+figcaption{
+    font-size: 9pt;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}    
+
+h3{
+    font-family: 'Secular One', sans-serif; 
+    padding-left: 15px;
+    margin: 10px;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    font-size: 8pt;
+    font-family: 'Secular One', sans-serif;
+    background-color: lime;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background .3s;
+    
+}
+
+button:hover{
+    background-color: rgb(1, 197, 1);
+}
+
+button:active{
+    background-color: rgb(0, 27, 0);
+    
+}
+
+input{
+    padding-left: 20px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(0, 57, 122);
+    background-color: rgb(0, 57, 122);
+}
+
+footer p{
+    color: #fff;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 38px;
+    padding-left: 20px;
+}
+
+footer a{
+    color: #fff;
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    left: 780px;
+    bottom: 25px;
+}
+
+
